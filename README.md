@@ -32,13 +32,36 @@ relatorio/   arquivo .pbix do relatório
 imagens/     prints das páginas
 ```
 
+## Prints
+
+### Página 1 – Visão geral de vendas
+
+![Página 1](imagens/pagina-1-visao-geral-vendas.jpg)
+
+### Página 2 – Análise de lucro
+
+![Página 2](imagens/pagina-2-analise-lucro.jpg)
+
+### Página 3 – Vendas e lucro por país
+
+A dica de ferramenta do primeiro mapa mostra as unidades vendidas de cada país.
+
+![Página 3](imagens/pagina-3-vendas-lucro-pais.jpg)
+
+## Ajustes em relação ao arquivo do curso
+
+O relatório foi editado no Power BI Service, então alguns visuais precisaram de ajuste:
+
+- Os mapas usam **Azure Maps**, porque o visual de mapa do Bing está sendo descontinuado.
+- O **Chiclet Slicer** e o **Radar Chart** da página 2 foram adicionados de novo pelo AppSource, com os mesmos campos (Ano; Product × Profit), porque o serviço não carregou os visuais personalizados que vieram no `.pbix`.
+
 ## Status
 
-- [ ] Páginas 1 e 2 replicadas
-- [ ] Página 3 criada
-- [ ] Relatório publicado no Power BI Service
+- [x] Páginas 1 e 2 replicadas
+- [x] Página 3 criada
+- [x] Relatório publicado no Power BI Service
 - [ ] Compartilhado como suplemento no PowerPoint
-- [ ] Prints das páginas adicionados
+- [x] Prints das páginas adicionados
 
 ## Ferramentas
 
