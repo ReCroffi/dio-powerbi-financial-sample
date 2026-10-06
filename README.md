@@ -48,6 +48,12 @@ A dica de ferramenta do primeiro mapa mostra as unidades vendidas de cada país.
 
 ![Página 3](imagens/pagina-3-vendas-lucro-pais.jpg)
 
+### Relatório no PowerPoint
+
+A página 3 foi incorporada num slide pelo suplemento Microsoft Power BI, com os dados ao vivo.
+
+![Relatório no PowerPoint](imagens/powerpoint-suplemento.jpg)
+
 ## Ajustes em relação ao arquivo do curso
 
 O relatório foi editado no Power BI Service, então alguns visuais precisaram de ajuste:
@@ -60,7 +66,8 @@ O relatório foi editado no Power BI Service, então alguns visuais precisaram d
 - [x] Páginas 1 e 2 replicadas
 - [x] Página 3 criada
 - [x] Relatório publicado no Power BI Service
-- [ ] Compartilhado como suplemento no PowerPoint
+- [x] Compartilhado como suplemento no PowerPoint
+- [x] Arquivo .pbix salvo em `relatorio/`
 - [x] Prints das páginas adicionados
 
 ## Ferramentas
